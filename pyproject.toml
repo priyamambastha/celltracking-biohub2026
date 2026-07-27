@@ -1,0 +1,15 @@
+[project]
+name = "celltracking"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "geff>=1.2.0.1.1",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "napari[all]>=0.6.5",
+    "pandas>=3.0.5",
+    "seaborn>=0.13.2",
+    "zarr>=3.2.1",
+]
